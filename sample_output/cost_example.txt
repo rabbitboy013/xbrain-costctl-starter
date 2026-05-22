@@ -1,11 +1,10 @@
-Cost for Application=HealthBot over last 7 days (2026-05-14 → 2026-05-21):
-------------------------------------------------------------
-  Amazon Elastic Compute Cloud - Compute        $    8.42
-  Amazon Relational Database Service             $    5.18
-  Amazon Simple Storage Service                  $    0.18
-  AWS Lambda                                     $    0.02
-------------------------------------------------------------
-  TOTAL                                          $   13.80
+Cost command implemented.
 
-# REPLACE WITH REAL OUTPUT from running:
-#   ./costctl.py cost --tag Application=<your-app> --days 7 > sample_output/cost_<your-app>_<date>.txt
+Manual command to capture real Cost Explorer output:
+
+python costctl.py --region us-west-2 cost --tag Application=CostCtlTest --days 7
+
+Note:
+Cost Explorer data can lag 8-24 hours and requires activated cost allocation tags.
+In this submission, the real AWS evidence captured is focused on read-only list output
+for EC2, EBS volume, and S3 so existing shared services are not modified.

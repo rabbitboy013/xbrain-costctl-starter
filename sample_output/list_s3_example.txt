@@ -1,0 +1,16 @@
+S3 - 14 found:
+------------------------------------------------------------------------------
+  aws-cloudtrail-logs-138062776627-051cef04 bucket         active
+  aws-cloudtrail-logs-138062776627-0abcd129 bucket         active
+  aws-cloudtrail-logs-138062776627-2783c294 bucket         active
+  aws-cloudtrail-logs-138062776627-ee1cdc89 bucket         active
+  demo-fix-s3                bucket         active
+  demo-public-access-auto-fix bucket         active
+  demopublicthunha           bucket         active
+  mh3-tuananh                bucket         active
+  myproduct-kb-138062776627  bucket         active       aws:cloudformation:logical-id=S3Bucket, aws:cloudformation:stack-name=rag-w-bedrock-kb
+  recruitment-cv-ab61a80e    bucket         active       Application=RecruitmentApp, CostCenter=G12, Environment=dev, Owner=teamlead@email.com, keep=true
+  recruitment-static-web-ab61a80e bucket         active       Application=RecruitmentApp, CostCenter=G12, Environment=dev, Owner=teamlead@email.com, keep=true
+  test-public-bucket-aaaa    bucket         active
+  tu-cvs                     bucket         active       Application=TNRecruitment, CostCenter=G12, Environment=dev, Owner=tct31082004@gmail.com, keep=true
+  tu-recruitment-frontend    bucket         active       Application=recruitment-app, CostCenter=G12, Environment=dev, Owner=tct31082004@gmail.com, keep=true
